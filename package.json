@@ -1,0 +1,41 @@
+{
+  "name": "fastify-conditional-requests",
+  "version": "0.0.0",
+  "description": "Conditional Requests wrapper to Fastify",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublish": "tsc",
+    "build": "tsc",
+    "dev": "ts-node index.ts",
+    "demo": "ts-node demo.ts"
+  },
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelGSS/fastify-conditional-requests.git"
+  },
+  "keywords": [
+    "etag",
+    "conditional",
+    "requests",
+    "fastify"
+  ],
+  "author": "RafaelGSS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaelGSS/fastify-conditional-requests/issues"
+  },
+  "homepage": "https://github.com/RafaelGSS/fastify-conditional-requests#readme",
+  "dependencies": {
+    "fastify": "^3.5.1",
+    "fastify-plugin": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.8",
+    "jest": "^26.5.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
